@@ -289,3 +289,144 @@ footer h3 {
     font-size: 25px;
 
 }
+
+/* for mobile device */
+
+@media screen and (max-width:667px) {
+
+    .container {
+        width: 90%;
+    }
+
+
+    .logo {
+        width: 100%;
+    }
+
+    .logo h2 {
+        text-align: center;
+
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+
+    nav ul li a {
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+
+    /* banner-section start */
+
+    .banner h1 {
+        font-size: 30px;
+        margin: 30px 0 50px 0;
+    }
+
+    .banner a {
+        padding: 10px 20px;
+        letter-spacing: 2px;
+    }
+
+
+
+    /* event-section */
+    .event-section {
+        padding: 40px 0 20px 0;
+    }
+
+    .event-section h1 {
+        font-size: 30px;
+    }
+
+
+
+    .events {
+        width: 100%;
+        float: left;
+        text-align: center;
+
+    }
+
+    .event {
+        width: 100%;
+    }
+
+
+    .event img {
+        height: 320px;
+        width: 100%;
+    }
+
+    .event a {
+        margin-bottom: 20px;
+        display: block;
+        text-decoration: none;
+        letter-spacing: 3px;
+        color: red;
+        font-size: 18px;
+    }
+
+    .explore-section {
+        justify-content: center;
+    }
+
+    .word {
+        width: 90%;
+        padding: 70px 0;
+    }
+
+    .word h1 {
+        font-size: 30px;
+    }
+
+    .word p {
+        font-size: 18px;
+        padding: 0 0 0 0;
+    }
+
+    /* Upcoming-tour section */
+    .upcoming-tour {
+        padding: 40px 0;
+    }
+
+    .tours {
+        display: block;
+    }
+
+    .tour {
+        margin: 20px;
+    }
+
+    .tour h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .tour p {
+        font-size: 18px;
+        margin: 20px 0 40px 0;
+    }
+
+    .tour a {
+        padding: 10px 20px;
+        display: inline-block;
+        margin-bottom: 30px;
+
+    }
+
+    /* footer-start */
+    footer {
+        padding: 50px 20px;
+    }
+
+    footer h3 {
+        font-size: 18px;
+    }
+}
