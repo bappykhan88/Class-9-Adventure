@@ -298,14 +298,12 @@ footer h3 {
         width: 90%;
     }
 
-
     .logo {
         width: 100%;
     }
 
     .logo h2 {
         text-align: center;
-
     }
 
     nav {
@@ -315,7 +313,6 @@ footer h3 {
     nav ul {
         text-align: center;
     }
-
 
     nav ul li a {
         padding: 5px 10px;
@@ -333,7 +330,6 @@ footer h3 {
         padding: 10px 20px;
         letter-spacing: 2px;
     }
-
 
 
     /* event-section */
@@ -428,5 +424,154 @@ footer h3 {
 
     footer h3 {
         font-size: 18px;
+    }
+}
+
+/* for tablet device */
+
+@media only screen and (min-width:668px) and (max-width:991px) {
+
+    .container {
+        width: 90%;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .logo h2 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li a {
+        padding: 15px 20px;
+        font-size: 20px;
+
+    }
+
+    /* banner-section start */
+
+    .banner h1 {
+        font-size: 50px;
+        margin: 70px 0 50px 0;
+    }
+
+    .banner h3 {
+        padding: 90px 0 0 0;
+    }
+
+    .banner a {
+        padding: 10px 20px;
+        letter-spacing: 2px;
+    }
+
+
+    /* event-section */
+    .event-section {
+        padding: 40px 0 20px 0;
+    }
+
+    .event-section h1 {
+        font-size: 40px;
+    }
+
+
+    .events {
+        width: 100%;
+        float: left;
+        text-align: center;
+
+    }
+
+    .event {
+        width: 100%;
+    }
+
+
+    .event img {
+        height: 320px;
+        width: 100%;
+    }
+
+    .event a {
+        margin-bottom: 20px;
+        display: block;
+        text-decoration: none;
+        letter-spacing: 3px;
+        color: red;
+        font-size: 18px;
+    }
+
+    .explore-section {
+        justify-content: center;
+    }
+
+    .word {
+        width: 90%;
+        padding: 70px 0;
+    }
+
+    .word h1 {
+        font-size: 40px;
+    }
+
+    .word p {
+        font-size: 18px;
+        padding: 0 0 0 0;
+    }
+
+    /* Upcoming-tour section */
+    .upcoming-tour {
+        padding: 50px 0;
+    }
+
+    .tours {
+        display: block;
+    }
+
+    .tour {
+        margin: 20px;
+    }
+
+    .tour h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .tour p {
+        font-size: 18px;
+        margin: 20px 0 40px 0;
+    }
+
+    .tour a {
+        padding: 10px 20px;
+        display: inline-block;
+        margin-bottom: 30px;
+
+    }
+
+    /* footer-start */
+    footer {
+        padding: 50px 20px;
+    }
+
+    footer h3 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1024px) {
+    .container {
+        width:90%;
+        margin: auto;
     }
 }
